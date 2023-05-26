@@ -1,0 +1,27 @@
+/* Defines the styling for a box element with specific dimensions and positioning */
+.box {
+  width: 50px;
+  height: 50px;
+  margin: auto; /* centers the element horizontally */
+  display: inline-block;
+  margin-right: 2px; /* adds a small amount of space between boxes */
+  margin-top: 5px; /* adds a small amount of space above the boxes */
+  border-radius: 11px; /* rounds the corners of the box */
+}
+
+/* Defines the styling for odd-numbered box elements */
+.box:nth-child(odd) {
+  background: red; /* sets the background color to red */
+  margin-right: 2px;
+}
+
+/* Defines the styling for even-numbered box elements */
+.box:nth-child(even) {
+  background: lightgreen; /* sets the background color to light green */
+  margin-right: 2px;
+}
+
+/* Defines the styling for the number displayed inside each box */
+.display-number{
+  margin: 12px; /* adds some margin around the number */
+}
